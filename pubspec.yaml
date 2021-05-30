@@ -1,0 +1,89 @@
+name: helphub
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bottom_navy_bar: null
+  cached_network_image: null
+  cloud_firestore: null
+  community_material_icon: null
+  cupertino_icons: null
+  dio: null
+  division: null
+  easy_listview: null
+  expandable: null
+  firebase_auth: null
+  firebase_core: ^1.0.4
+  firebase_messaging: null
+  firebase_storage: null
+  flushbar: null
+  flutter_email_sender: null
+  flutter_launcher_icons: ^0.7.4
+  flutter_local_notifications: null
+  flutter_login: null
+  flutter_spinkit: null
+  flutter_swiper: null
+  fluttertoast: ^7.1.5
+  font_awesome_flutter: null
+  get_it: null
+  hidden_drawer_menu: null
+  http: null
+  image_cropper: null
+  image_downloader: null
+  image_gallery_saver: null
+  image_picker: null
+  intl: null
+  intro_views_flutter: ^2.8.2
+  package_info: null
+  path_provider: null
+  percent_indicator: null
+  permission_handler: null
+  provider: null
+  pull_to_refresh: null
+  shared_preferences: null
+  sortedmap: null
+  url_launcher: null
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Customicons
+      fonts:
+        - asset: assets/fonts/Customicons.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/fonts/MyFlutterApp.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/Nunito-Italic.ttf

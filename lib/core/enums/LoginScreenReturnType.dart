@@ -1,0 +1,3 @@
+enum ReturnType {
+  EMAILERROR, SUCCESS
+}
